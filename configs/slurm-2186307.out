@@ -1,0 +1,603 @@
+Job 2186307: Running on node(s) serv-9223
+Job 2186307: Started at 2025-09-27 17:58:43+0200
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=2186307&from=1758988723000
+srun: jobinfo: version v1.0.0
+Job 2186307: Running on node(s) serv-9223
+Job 2186307: Started at 2025-09-27 17:58:43+0200
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=2186307&from=1758988723000
+Job 2186307: creating container for /netscratch/fschulz/video_deanon_train_cuda.sqsh
+Job 2186307: creating container for /netscratch/fschulz/video_deanon_train_cuda.sqsh took 40.6 seconds
+
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+LOCAL_RANK from env: 1
+LOCAL_RANK from env: 1
+LOCAL_RANK from env: 0
+LOCAL_RANK from env: 1
+LOCAL_RANK from env: 3
+LOCAL_RANK from env: 2
+LOCAL_RANK from env: 3
+LOCAL_RANK from env: 0
+LOCAL_RANK from env: 2
+LOCAL_RANK from env: 3
+LOCAL_RANK from env: 0
+LOCAL_RANK from env: 2
+LOCAL_RANK from env: 1
+LOCAL_RANK from env: 3
+LOCAL_RANK from env: 2
+LOCAL_RANK from env: 0
+[rank1] CUDA_VISIBLE_DEVICES: None
+[rank0] CUDA_VISIBLE_DEVICES: None
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+[rank1] CUDA_VISIBLE_DEVICES: None
+[rank3] CUDA_VISIBLE_DEVICES: None
+[SAMPLER] Dataset Length: 112
+[rank1] CUDA_VISIBLE_DEVICES: None
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+[rank2] CUDA_VISIBLE_DEVICES: None
+[rank3] CUDA_VISIBLE_DEVICES: None
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+[rank0] CUDA_VISIBLE_DEVICES: None
+[SAMPLER] Dataset Length: 112
+[rank2] CUDA_VISIBLE_DEVICES: None
+[SAMPLER] Dataset Length: 112
+[rank3] CUDA_VISIBLE_DEVICES: None
+[rank0] CUDA_VISIBLE_DEVICES: None
+[SAMPLER] Dataset Length: 112
+[rank1] CUDA_VISIBLE_DEVICES: None
+[rank2] CUDA_VISIBLE_DEVICES: None
+[SAMPLER] Dataset Length: 112
+[rank3] CUDA_VISIBLE_DEVICES: None
+[rank2] CUDA_VISIBLE_DEVICES: None
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+[rank0] CUDA_VISIBLE_DEVICES: None
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+Number of batches per epoch: 7Number of batches per epoch: 7
+
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+Number of batches per epoch: 7
+Number of batches per epoch: 7
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+Epoch 1:   0%|          | 0/7 [00:00<?, ?it/s]INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+Number of batches per epoch: 7
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+Number of batches per epoch: 7
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+Number of batches per epoch: 7
+Number of batches per epoch: 7
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+Number of batches per epoch: 7
+Number of batches per epoch: 7
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+Number of batches per epoch: 7
+Number of batches per epoch: 7
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+Number of batches per epoch: 7
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+Number of batches per epoch: 7
+Number of batches per epoch: 7
+/home/fschulz/video_deanon_train/train.py:101: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+Number of batches per epoch: 7
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+[SAMPLER] Dataset Length: 112
+Epoch 1:   0%|          | 0/7 [00:00<?, ?it/s]INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+[SAMPLER] Dataset Length: 112
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[SAMPLER] Dataset Length: 112
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+[SAMPLER] Dataset Length: 112
+INFO: INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1758988774.800913 3395521 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[SAMPLER] Dataset Length: 112
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+Epoch 1:   0%|          | 0/7 [00:00<?, ?it/s]INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Epoch 1:   0%|          | 0/7 [00:00<?, ?it/s]INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: INFO: Created TensorFlow Lite XNNPACK delegate for CPU.Created TensorFlow Lite XNNPACK delegate for CPU.
+
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1758988774.826447 3395396 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1758988774.845702 3395277 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1758988774.876116 3395648 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1758988774.881403 3395455 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1758988774.896291 3395325 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1758988774.905211 3395580 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1758988774.962135 3395199 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1758988774.980585 3395240 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1758988774.981830 3395193 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1758988775.011026 3396112 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.063736 3396359 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1758988775.083604 3397687 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.084540 3395777 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.093319 3399056 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.107651 3395768 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.113969 3398780 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.123533 3397816 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.131179 3398845 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.132650 3396626 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.140407 3395981 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.155366 3396861 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.166085 3397514 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.170739 3399396 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.172642 3399052 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.173522 3398197 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.175440 3398275 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.187259 3397606 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.191541 3395914 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.209823 3396443 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.222414 3396597 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.228401 3397879 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.231465 3397703 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.245450 3397912 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.253359 3398880 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.258351 3396825 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.276090 3397936 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.276596 3399415 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.281179 3399606 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.283366 3399380 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.284408 3396546 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.289558 3398726 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.293874 3398300 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.302705 3398541 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.313918 3395704 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.315371 3397240 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.321814 3398413 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.321895 3397952 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.325624 3396914 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.331256 3398395 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.341894 3397153 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.345507 3396427 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.347502 3399531 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.353112 3397639 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.361482 3399480 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.364735 3398035 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.365028 3397057 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.384679 3399182 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.408998 3398553 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.410733 3399134 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.417399 3399665 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.430281 3396807 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.486776 3399576 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+W0000 00:00:1758988775.597986 3398952 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id060/a04-id036.mp4: only 29 valid frames (<35)
+[SAMPLER] Warning: /netscratch/fschulz/tav-d/train/nvidia_id060/a04-id036.mp4 is too short to be processed. Skipping this video.
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5d48aeea74c0] moov atom not found
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id064/a07-id040.mp4: no face detected in any frame.
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id064/a07-id040.mp4: no face detected in any frame.
+[SAMPLER] Warning: /netscratch/fschulz/tav-d/train/nvidia_id064/a07-id040.mp4 is too short to be processed. Skipping this video.
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5d48aba40bc0] moov atom not found
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id064/a07-id040.mp4: no face detected in any frame.
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id064/a07-id040.mp4: no face detected in any frame.
+[SAMPLER] Warning: /netscratch/fschulz/tav-d/train/nvidia_id064/a07-id040.mp4 is too short to be processed. Skipping this video.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x61fa45b258c0] moov atom not found
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id064/a07-id040.mp4: no face detected in any frame.
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id064/a07-id040.mp4: no face detected in any frame.
+[SAMPLER] Warning: /netscratch/fschulz/tav-d/train/nvidia_id064/a07-id040.mp4 is too short to be processed. Skipping this video.
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/cremad_id146/1076_MTI_NEU_XX.mp4: only 3 valid frames (<35)
+[SAMPLER] Warning: /netscratch/fschulz/tav-d/train/cremad_id146/1076_MTI_NEU_XX.mp4 is too short to be processed. Skipping this video.
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/cremad_id146/1076_MTI_SAD_XX.mp4: no face detected in any frame.
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/cremad_id146/1076_MTI_SAD_XX.mp4: no face detected in any frame.
+[SAMPLER] Warning: /netscratch/fschulz/tav-d/train/cremad_id146/1076_MTI_SAD_XX.mp4 is too short to be processed. Skipping this video.
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id042/q03-id018.mp4.mp4: only 21 valid frames (<35)
+[SAMPLER] Warning: /netscratch/fschulz/tav-d/train/nvidia_id042/q03-id018.mp4.mp4 is too short to be processed. Skipping this video.
+[TRAIN] Epoch 0 Step 0 Loss 0.9140 GradNorm 62266.0014 {'N': 0.8566704988479614, 'Q': 0.9253374934196472, 'R': 0.9036655426025391, 'p': 0.41486960649490356}
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5a3c20b6adc0] moov atom not found
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id063/a07-id039.mp4: no face detected in any frame.
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id063/a07-id039.mp4: no face detected in any frame.
+[SAMPLER] Warning: /netscratch/fschulz/tav-d/train/nvidia_id063/a07-id039.mp4 is too short to be processed. Skipping this video.
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id069/q07-id045.mp4: only 27 valid frames (<35)
+[SAMPLER] Warning: /netscratch/fschulz/tav-d/train/nvidia_id069/q07-id045.mp4 is too short to be processed. Skipping this video.
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id069/q06-id045.mp4: only 24 valid frames (<35)
+[SAMPLER] Warning: /netscratch/fschulz/tav-d/train/nvidia_id069/q06-id045.mp4 is too short to be processed. Skipping this video.
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5a3c19496b80] moov atom not found
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id063/a07-id039.mp4: no face detected in any frame.
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id063/a07-id039.mp4: no face detected in any frame.
+[SAMPLER] Warning: /netscratch/fschulz/tav-d/train/nvidia_id063/a07-id039.mp4 is too short to be processed. Skipping this video.
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x5a3c19496b80] moov atom not found
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id063/a07-id039.mp4: no face detected in any frame.
+[WARNING] Skipping /netscratch/fschulz/tav-d/train/nvidia_id063/a07-id039.mp4: no face detected in any frame.
+[SAMPLER] Warning: /netscratch/fschulz/tav-d/train/nvidia_id063/a07-id039.mp4 is too short to be processed. Skipping this video.
+/home/fschulz/video_deanon_train/train.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.amp):
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/home/fschulz/video_deanon_train/train.py", line 178, in <module>
+[rank3]:     main()
+[rank3]:   File "/home/fschulz/video_deanon_train/train.py", line 132, in main
+[rank3]:     embeddings = model(segments)   # (B, 5, E)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/parallel/distributed.py", line 1648, in forward
+[rank3]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/parallel/distributed.py", line 1474, in _run_ddp_forward
+[rank3]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/home/fschulz/video_deanon_train/model.py", line 60, in forward
+[rank3]:     outs.append(self.forward_F(x[:, off:off+self.F, :]))  # (B,E)
+[rank3]:   File "/home/fschulz/video_deanon_train/model.py", line 46, in forward_F
+[rank3]:     x = self.backbone(x)                 # (B,hidden,F,1,1) with padding->F stays the same
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py", line 244, in forward
+[rank3]:     input = module(input)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py", line 717, in forward
+[rank3]:     return self._conv_forward(input, self.weight, self.bias)
+[rank3]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py", line 712, in _conv_forward
+[rank3]:     return F.conv3d(
+[rank3]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 384.00 MiB. GPU 3 has a total capacity of 44.42 GiB of which 250.56 MiB is free. Process 3394403 has 464.00 MiB memory in use. Process 3394397 has 36.81 GiB memory in use. Including non-PyTorch memory, this process has 6.46 GiB memory in use. Process 3394391 has 436.00 MiB memory in use. Of the allocated memory 6.02 GiB is allocated by PyTorch, and 7.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Epoch 1:   0%|          | 0/7 [07:56<?, ?it/s]
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/fschulz/video_deanon_train/train.py", line 178, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/fschulz/video_deanon_train/train.py", line 132, in main
+[rank0]:     embeddings = model(segments)   # (B, 5, E)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/parallel/distributed.py", line 1648, in forward
+[rank0]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/parallel/distributed.py", line 1474, in _run_ddp_forward
+[rank0]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/home/fschulz/video_deanon_train/model.py", line 60, in forward
+[rank0]:     outs.append(self.forward_F(x[:, off:off+self.F, :]))  # (B,E)
+[rank0]:   File "/home/fschulz/video_deanon_train/model.py", line 46, in forward_F
+[rank0]:     x = self.backbone(x)                 # (B,hidden,F,1,1) with padding->F stays the same
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/container.py", line 244, in forward
+[rank0]:     input = module(input)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py", line 717, in forward
+[rank0]:     return self._conv_forward(input, self.weight, self.bias)
+[rank0]:   File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/conv.py", line 712, in _conv_forward
+[rank0]:     return F.conv3d(
+[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 384.00 MiB. GPU 0 has a total capacity of 44.42 GiB of which 278.56 MiB is free. Process 3394400 has 436.00 MiB memory in use. Including non-PyTorch memory, this process has 6.46 GiB memory in use. Process 3394394 has 36.81 GiB memory in use. Process 3394388 has 436.00 MiB memory in use. Of the allocated memory 6.02 GiB is allocated by PyTorch, and 7.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+W0927 18:07:31.392000 3394113 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394406 closing signal SIGTERM
+W0927 18:07:31.401000 3394113 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394407 closing signal SIGTERM
+W0927 18:07:31.406000 3394113 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394408 closing signal SIGTERM
+E0927 18:07:32.024000 3394113 torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 3 (pid: 3394409) of binary: /usr/bin/python
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 905, in <module>
+    main()
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 901, in main
+    run(args)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 892, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 143, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 277, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-09-27_18:07:31
+  host      : serv-9223.kl.dfki.de
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 3394409)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+srun: error: serv-9223: task 2: Exited with exit code 1
+srun: Terminating StepId=2186307.0
+slurmstepd: error: *** STEP 2186307.0 ON serv-9223 CANCELLED AT 2025-09-27T18:07:32 ***
+W0927 18:07:32.698000 3394111 torch/distributed/elastic/agent/server/api.py:723] Received Signals.SIGTERM death signal, shutting down workers
+W0927 18:07:32.701000 3394114 torch/distributed/elastic/agent/server/api.py:723] Received Signals.SIGTERM death signal, shutting down workers
+W0927 18:07:32.703000 3394114 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394388 closing signal SIGTERM
+W0927 18:07:32.704000 3394111 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394400 closing signal SIGTERM
+W0927 18:07:32.699000 3394112 torch/distributed/elastic/agent/server/api.py:723] Received Signals.SIGTERM death signal, shutting down workers
+W0927 18:07:32.713000 3394111 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394401 closing signal SIGTERM
+W0927 18:07:32.714000 3394114 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394389 closing signal SIGTERM
+W0927 18:07:32.715000 3394114 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394390 closing signal SIGTERM
+W0927 18:07:32.717000 3394112 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394394 closing signal SIGTERM
+W0927 18:07:32.720000 3394112 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394395 closing signal SIGTERM
+W0927 18:07:32.724000 3394111 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394402 closing signal SIGTERM
+W0927 18:07:32.725000 3394111 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394403 closing signal SIGTERM
+W0927 18:07:32.724000 3394112 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394396 closing signal SIGTERM
+W0927 18:07:32.732000 3394112 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394397 closing signal SIGTERM
+W0927 18:07:32.736000 3394114 torch/distributed/elastic/multiprocessing/api.py:900] Sending process 3394391 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 905, in <module>
+    main()
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 901, in main
+    run(args)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 892, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 143, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    result = agent.run()
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/agent/server/api.py", line 715, in run
+    result = self._invoke_run(role)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/agent/server/api.py", line 879, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 3394111 got signal: 15
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 905, in <module>
+    main()
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 901, in main
+    run(args)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 892, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 143, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    result = agent.run()
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/agent/server/api.py", line 715, in run
+    result = self._invoke_run(role)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/agent/server/api.py", line 879, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 3394114 got signal: 15
+srun: error: serv-9223: tasks 0,3: Exited with exit code 1
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 905, in <module>
+    main()
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 357, in wrapper
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 901, in main
+    run(args)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/run.py", line 892, in run
+    elastic_launch(
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 143, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    result = agent.run()
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/agent/server/api.py", line 715, in run
+    result = self._invoke_run(role)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/agent/server/api.py", line 879, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/elastic/multiprocessing/api.py", line 84, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 3394112 got signal: 15
+srun: error: serv-9223: task 1: Exited with exit code 1

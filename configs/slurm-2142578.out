@@ -1,0 +1,29 @@
+Job 2142578: Running on node(s) kersey
+Job 2142578: Started at 2025-09-03 18:39:35+0200
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=2142578&from=1756917575000
+srun: jobinfo: version v1.0.0
+Job 2142578: Running on node(s) kersey
+Job 2142578: Started at 2025-09-03 18:39:35+0200
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=2142578&from=1756917575000
+Job 2142578: creating container for /netscratch/fschulz/video_deanon_train.sqsh
+Job 2142578: creating container for /netscratch/fschulz/video_deanon_train.sqsh took 39.2 seconds
+Traceback (most recent call last):
+  File "/home/fschulz/video_deanon_train/train.py", line 99, in <module>
+    main()
+  File "/home/fschulz/video_deanon_train/train.py", line 37, in main
+    local_rank = setup_distributed()
+  File "/home/fschulz/video_deanon_train/train.py", line 14, in setup_distributed
+    dist.init_process_group("nccl")
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/c10d_logger.py", line 95, in wrapper
+    func_return = func(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/distributed_c10d.py", line 1757, in init_process_group
+    store, rank, world_size = next(rendezvous_iterator)
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/rendezvous.py", line 274, in _env_rendezvous_handler
+    master_addr = _get_env_or_raise("MASTER_ADDR")
+  File "/usr/local/lib/python3.10/dist-packages/torch/distributed/rendezvous.py", line 252, in _get_env_or_raise
+    raise _env_error(env_var)
+ValueError: Error initializing torch.distributed using env:// rendezvous: environment variable MASTER_ADDR expected, but not set
+srun: error: kersey: task 0: Exited with exit code 1
+srun: Terminating StepId=2142578.0

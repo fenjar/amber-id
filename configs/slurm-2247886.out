@@ -1,0 +1,36 @@
+Job 2247886: Running on node(s) serv-3340
+Job 2247886: Started at 2025-10-28 02:46:32+0100
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=2247886&from=1761615992000
+srun: jobinfo: version v1.0.0
+Job 2247886: Running on node(s) serv-3340
+Job 2247886: creating container for /netscratch/fschulz/video_deanon_train_cuda.sqsh
+Job 2247886: Started at 2025-10-28 02:46:33+0100
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=2247886&from=1761615993000
+Job 2247886: creating container for /netscratch/fschulz/video_deanon_train_cuda.sqsh took 81.1 seconds
+[STEP] extracting landmarks...
+[STEP] extracting landmarks...
+Traceback (most recent call last):
+  File "/home/fschulz/video_deanon_train/landmarks2.py", line 228, in <module>
+    os.makedirs(OUT_DIR, exist_ok=True)
+  File "/usr/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 30] Read-only file system: '/netscratch/fschulz/g3_train_landmarks_npy'
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1761616076.057567 3501905 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1761616076.066352 3501905 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+Traceback (most recent call last):
+  File "/home/fschulz/video_deanon_train/landmarks2.py", line 228, in <module>
+    os.makedirs(OUT_DIR, exist_ok=True)
+  File "/usr/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 30] Read-only file system: '/netscratch/fschulz/g3_train_landmarks_npy'
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1761616076.165520 3502076 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1761616076.179800 3502076 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+srun: error: serv-3340: task 0: Exited with exit code 1
+srun: Terminating StepId=2247886.0
+slurmstepd: error: *** STEP 2247886.0 ON serv-3340 CANCELLED AT 2025-10-28T02:47:56 ***
+srun: error: serv-3340: task 1: Terminated
+srun: Force Terminated StepId=2247886.0

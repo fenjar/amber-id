@@ -1,0 +1,20 @@
+Job 2144085: Running on node(s) kent
+Job 2144085: Started at 2025-09-04 10:46:12+0200
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=2144085&from=1756975572000
+srun: jobinfo: version v1.0.0
+Job 2144085: Running on node(s) kent
+Job 2144085: Started at 2025-09-04 10:46:12+0200
+Monitor this job here: http://monitoring.pegasus.kl.dfki.de/d/slurm-job-details/job-details?var-jobid=2144085&from=1756975572000
+Job 2144085: creating container for /netscratch/fschulz/video_deanon_train.sqsh
+Job 2144085: creating container for /netscratch/fschulz/video_deanon_train.sqsh took 39.8 seconds
+/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py:627: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 6, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/fschulz/video_deanon_train/train.py", line 99, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/fschulz/video_deanon_train/train.py", line 57, in main
+[rank0]:     criterion = avatar_contrastive_loss()
+[rank0]: TypeError: avatar_contrastive_loss() missing 5 required positional arguments: 'embeddings', 'driver_ids', 'video_ids', 'clip_is_shuffled', and 'original_pair_idx'
+[rank0]:[W904 10:46:56.581666175 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+srun: error: kent: task 0: Exited with exit code 1
+srun: Terminating StepId=2144085.0
