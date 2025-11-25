@@ -140,3 +140,9 @@ echo "Test: ${#test_set[@]} Folders"
 echo "Val: ${#val_set[@]} Folders"
 echo "Train: ${#train_set[@]} Folders"
 ```
+
+# Cross Fold
+To show that the models generalize to other splits, a 5-crossfold was done on the k0 train-test split of TAV-D to make sure that every identity is once in the test set. For more details on the folds, see `ds\cv_split_overview.csv`.
+
+#Landmark Files
+We also provide the landmarking npy files of the TAV-D train and test set. You can find them in `ds\tavd_train_landmarks` and `ds\tavd_test_landmarks`.
