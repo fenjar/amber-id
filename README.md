@@ -105,3 +105,10 @@ Best model performance:
 Most identity-revealing motion regions: Eyes, Lips, Nose
 
 ## 🚀 Getting Started
+
+To start Amber from scratch with your own video dataset, you just need to follow the steps described below. Prerequisite is a set of videos, organized in folders named by the logic `*_id*` where the first wildcard equals the source of the identity and the second wildcard equals the incremental numerical identifier, e.g. `ravdess_id001` or `cremad_id101`. The numerical id needs to be unique in the input dataset; one folder for each person. The source is irrelevant for the pipeline but handy to keep track of the source datasets. It will get split by the `landmarker.py` pipeline. The dataset can be either an avatar dataset, an unanonymized dataset or a dataset with a complete different anonymization method, as long as the input videos contain human facial features. It is likely that strictly masked or permuted data will not result in meaningful embeddings, since Ambers landmarking system relies on spatial-temporal face landmarks. All kinds of human face synthesis or reenactments are the right choice for Amber.
+
+* Preprocessing and Landmarking
+* STGCN Model Training
+* Optional: Best Model Re-Selection on EER
+* Evaluation on 1:1 Verification (Same Pairs vs. Different Pairs)
