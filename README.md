@@ -1,5 +1,7 @@
 # AMBER-ID: Avatar Motion-Based Embeddings for Re-Identification
-Implementation of the Master Thesis (TU Berlin, 2025)
+Implementation of the Paper **Avatar Motion Signatures: Evaluating Linkability of Expressive De-Identification** [(Schulz et al., 2026)](https://www.scitepress.org/Link.aspx?doi=10.5220/0014622000004061) presented at the 12th International Conference on Information Systems Security and Privacy, awarded as [ICISSPs Best Paper 2026](https://icissp.scitevents.org/PreviousAwards.aspx) and published in the [Proceedings of the 12th International Conference on Information Systems Security and Privacy - (Volume 2)](https://www.scitepress.org/ProceedingsDetails.aspx?ID=/eschD8nZDc=&t=1).
+
+
 
 AMBER-ID (Avatar Motion-Based Embedding for Re-Identification) is an end-to-end framework for evaluating the privacy of avatar-anonymized talking-head videos.
 It investigates whether behavioral biometric information—specifically facial motion dynamics—can still be exploited to identify individuals, even when all appearance-based cues have been replaced by an avatar.
